@@ -1,0 +1,79 @@
+ul {
+    list-style: none;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.sideBarIcon {
+    margin-right: 16px;
+    width: 21px;
+    height: 21px;
+}
+
+.profilePic {
+    width: 48px;
+    height: 48px;
+}
+
+.leftBarList li {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.container-fluid {
+    width: 1140px;
+    height: 1500px;
+}
+
+.leftBar {
+    width: 300px;
+    height: 800px;
+    float: left;
+}
+
+.middleBar {
+    width: 500px;
+    height: 800px;
+    float: left;
+}
+
+.rightBar {
+    width: 300px;
+    height: 800px;
+    float: left;
+}
+
+.statusArea {
+    width: 300px;
+    height: 100px;
+    border-radius: 2px;
+}
+
+.statusAreaPicture {
+    margin-top: 85px;
+    float: left;
+}
+
+.statusAreaMain {
+    width: 480px;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-top: 85px;
+    border: 1px solid yellowgreen;
+}
+
+.skadi {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia;
+    margin-right: 15px;
+}
