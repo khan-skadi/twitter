@@ -1,9 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style: none;
 }
 
 .border {
     border: 2px solid black;
+}
+
+.fill {
+    background-color: black;
 }
 
 .logo {
@@ -30,6 +40,8 @@ ul {
 }
 
 .container-fluid {
+    position: relative;
+    display: flex;
     width: 1140px;
     height: 1500px;
 }
@@ -42,8 +54,8 @@ ul {
 
 .middleBar {
     width: 500px;
-    height: 800px;
-    float: left;
+    height: 200px;
+    /* float: left; */
 }
 
 .rightBar {
@@ -59,21 +71,32 @@ ul {
 }
 
 .statusAreaPicture {
-    margin-top: 85px;
+    position: relative;
+    /* margin-top: 85px; */
     float: left;
 }
 
 .statusAreaMain {
     width: 480px;
+    /* height: 200px; */
     border-radius: 4px;
     margin-left: 8px;
     margin-top: 85px;
     border: 1px solid yellowgreen;
+    background-color: lightblue;
 }
 
-.skadi {
+.spanSkadi {
     font-size: 16px;
     font-weight: bold;
     font-family: Georgia;
     margin-right: 15px;
+}
+
+.belowMain {
+    width: 500px;
+    position: absolute;
+    height: 220px;
+    margin-top: 200px;
+    margin-left: 300px;
 }
